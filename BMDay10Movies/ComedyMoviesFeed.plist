@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>New item</key>
+	<array/>
+	<key>item0</key>
+	<string>Anchorman</string>
+	<key>item2</key>
+	<string>The Hangover</string>
+	<key>item3</key>
+	<string>Airplane</string>
+	<key>item4</key>
+	<string>Superbad</string>
+	<key>item5</key>
+	<string>Dumb and Dumber</string>
+</dict>
+</plist>
