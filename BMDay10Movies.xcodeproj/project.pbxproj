@@ -15,6 +15,7 @@
 		2A5336F31AE17C4700187084 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A5336F11AE17C4700187084 /* LaunchScreen.xib */; };
 		2A5336FF1AE17C4700187084 /* BMDay10MoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5336FE1AE17C4700187084 /* BMDay10MoviesTests.m */; };
 		2A53370B1AE183F700187084 /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A53370A1AE183F700187084 /* FeedTableViewController.m */; };
+		2A53370F1AE1872100187084 /* ComedyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A53370E1AE1872100187084 /* ComedyTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		2A5336FE1AE17C4700187084 /* BMDay10MoviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMDay10MoviesTests.m; sourceTree = "<group>"; };
 		2A5337091AE183F700187084 /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
 		2A53370A1AE183F700187084 /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+		2A53370D1AE1872100187084 /* ComedyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComedyTableViewCell.h; sourceTree = "<group>"; };
+		2A53370E1AE1872100187084 /* ComedyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComedyTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		2A5336E11AE17C4700187084 /* BMDay10Movies */ = {
 			isa = PBXGroup;
 			children = (
+				2A53370C1AE1870300187084 /* View */,
 				2A5336E61AE17C4700187084 /* AppDelegate.h */,
 				2A5336E71AE17C4700187084 /* AppDelegate.m */,
 				2A5336E91AE17C4700187084 /* ViewController.h */,
@@ -131,6 +135,15 @@
 			);
 			name = Controller;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		2A53370C1AE1870300187084 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A53370D1AE1872100187084 /* ComedyTableViewCell.h */,
+				2A53370E1AE1872100187084 /* ComedyTableViewCell.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +248,7 @@
 			files = (
 				2A5336EB1AE17C4700187084 /* ViewController.m in Sources */,
 				2A5336E81AE17C4700187084 /* AppDelegate.m in Sources */,
+				2A53370F1AE1872100187084 /* ComedyTableViewCell.m in Sources */,
 				2A5336E51AE17C4700187084 /* main.m in Sources */,
 				2A53370B1AE183F700187084 /* FeedTableViewController.m in Sources */,
 			);

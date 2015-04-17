@@ -23,16 +23,17 @@
             </objects>
             <point key="canvasLocation" x="854" y="647"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Feed Table View Controller-->
         <scene sceneID="YuN-6a-aep">
             <objects>
-                <tableViewController id="fOX-sq-6er" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2E0-Pa-gz3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="fOX-sq-6er" customClass="FeedTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="fC9-ho-UJH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="spd-xI-w5s">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="spd-xI-w5s">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="spd-xI-w5s" id="7Y9-uR-Kfe">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -46,7 +47,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="siE-hq-BgF"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2E0-Pa-gz3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="854" y="16"/>
         </scene>

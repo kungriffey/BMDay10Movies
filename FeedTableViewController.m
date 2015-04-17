@@ -12,11 +12,16 @@
 
 @end
 
-@implementation FeedTableViewController
+@implementation FeedTableViewController {
+  
+  NSArray *feedMovies;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+  
+  feedMovies = @[@"movie1, movie2, movies 3"];
+  
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -34,13 +39,23 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [feedMovies count];
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:
+(NSIndexPath *)indexPath
+{
+  static NSString *cellIdentifier = @"Cell";
+  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier cellIdentifier];
+  cell.textLabel.text = [feedMovies objectAtIndex:indexPath.row];
+  return cell;
 }
 
 /*
